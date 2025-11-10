@@ -253,7 +253,7 @@ const App = () => {
       </div>
 
       {/* Top Control Buttons */}
-      <div className="absolute top-8 right-8 flex gap-2 sm:gap-3 z-20">
+      <div className="absolute top-8 right-8 flex flex-col gap-2 sm:gap-3 z-20">
         {/* Dark Mode Toggle */}
         <button
           onClick={toggleDarkMode}
